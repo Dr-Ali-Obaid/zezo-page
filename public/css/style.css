@@ -245,7 +245,7 @@ body {
     margin: 0;
     padding-right: 20px;
     line-height: 28px;
-    text-align: justify;
+    text-align: center;
 }
 
 .review-holder>p::after {
@@ -361,7 +361,7 @@ footer p {
 }
 
 @media(max-width: 900px) {
-    .card{
+    .card {
         margin-bottom: 30px;
     }
 
@@ -381,8 +381,13 @@ footer p {
         text-align: center;
     }
 
-    .skill:not(:last-child){
+    .skill:not(:last-child) {
         margin-bottom: 20px;
+    }
+
+    .media-holder img {
+
+        object-fit: contain;
     }
 
 }

@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
+    <loc>http://localhost:1313/zezo-page-live/</loc>
     <lastmod>2024-03-24T03:12:47+03:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>http://localhost:1313/zezo-page-live/categories/</loc>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>http://localhost:1313/zezo-page-live/tags/</loc>
   </url>
 </urlset>
