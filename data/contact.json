@@ -1,0 +1,21 @@
+{
+    "contact1":
+    {
+        "title": "الجوال",
+        "icon": "fa-solid fa-mobile",
+        "content": "00201004831248"
+    },
+    "contact2":
+    {
+        "title": "البريد الإلكتروني",
+        "icon": "fa-solid fa-envelope",
+        "content": "me3moze7zo@gmail.com"
+    },
+    "contact3":
+    {
+        "title": "الفيسبوك",
+        "icon": "fa-brands fa-square-facebook",
+        "content": "https://www.facebook.com/share/3FRSjWBRoYownxAN/?mibextid=LQQJ4d"
+    }
+
+}

@@ -1,0 +1,22 @@
+<div class="card card--full">
+    <h2>نماذج من أعمالي</h2>
+    <div class="slides-container" id="works">
+        <div class="slides-container__wrapper">
+            {{range .Site.Data.works}}
+            <div class="slides fade">
+                <div class="media-holder">
+                    {{if or (eq .src "images/guitar.mp4") (eq .src "images/oud.mp4")}}
+                    <video controls src="{{.src}}"></video>
+                    {{else}}
+                    <img src="{{.src}}" alt="معرض الأعمال">
+                    {{end}}
+                </div>
+            </div>
+            {{end}}
+        </div>
+        <div class="slides-buttons">
+            <span class="prev"><i class="fa-solid fa-chevron-right"></i></span>
+            <span class="next"><i class="fa-solid fa-chevron-left"></i></span>
+        </div>
+    </div>
+</div>

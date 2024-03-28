@@ -1,0 +1,21 @@
+<div class="card card--half">
+    <h2>تواصل معي</h2>
+    <p class="contact-desc">يمكنك التواصل معي عبر وسائل التواصل التالية</p>
+    {{range .Site.Data.contact}}
+    <div class="line">
+        <div class="line-head">
+            <i class="{{.icon}}"></i>
+            <h3>{{.title}}</h3>
+        </div>
+        <div class="line-body">
+            {{if eq .title "الفيسبوك"}}
+            <a href="{{.content}}">الصفحة الشخصية</a>
+            {{else}}
+            <p>
+                {{.content}}
+            </p>
+            {{end}}
+        </div>
+    </div>
+    {{end}}
+</div>

@@ -1,0 +1,14 @@
+{
+        "work1": {
+            "src" : "images/oud.mp4"
+        },
+        "work2": {
+            "src": "images/guitar.mp4"
+        },
+        "work3": {
+            "src": "images/logo1.jpeg"
+        },
+        "work4": {
+            "src": "images/logo2.jpeg"
+        } 
+}
